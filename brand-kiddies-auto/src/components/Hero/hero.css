@@ -1,0 +1,30 @@
+
+
+.hero-container{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+   background-color: #DAE0EF;
+}
+
+.hero-button{
+    background-color: #840032;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.left,.right{
+    max-width: 50%;
+}
+.right{
+    width: 50%;
+}
+.right img{
+    max-width: 100%;
+}
+.left p {
+    font-size: 1.2em;
+    margin: 1em 0;
+}

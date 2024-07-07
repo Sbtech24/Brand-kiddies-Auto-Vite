@@ -1,0 +1,32 @@
+.header{
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+.navLink{
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  ul,li{
+    text-decoration: none;
+    list-style: none;
+  }
+
+.top-header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.top-header-list{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    margin: 0 auto;
+}
+.header-right{
+    display: flex;
+    gap:2em;
+}
