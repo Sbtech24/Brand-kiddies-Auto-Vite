@@ -1,0 +1,27 @@
+footer{
+    padding: 30px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.bottom{
+    color: #797979;
+}
+
+.top{
+    color: #131313;
+}
+
+ul li{
+    padding: 7px;
+}

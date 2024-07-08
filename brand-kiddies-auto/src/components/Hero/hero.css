@@ -4,7 +4,7 @@
     display: flex;
     padding: 20px;
     justify-content: space-around;
-   background-color: #DAE0EF;
+   background-color: #F6F7F8;
 }
 
 .hero-button{
@@ -14,9 +14,16 @@
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 1rem;
+    margin-top: 0.95em;
 }
+
 .left,.right{
     max-width: 50%;
+    padding: 2em;
+}
+.left h1{
+    font-size: 3em;
 }
 .right{
     width: 50%;

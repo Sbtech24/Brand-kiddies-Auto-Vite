@@ -1,51 +1,56 @@
 import React from 'react'
-
+import logo from "../../assets/Logo.svg"
+import facebook from "../../assets/Facebook.svg"
+import instagram from "../../assets/instagram.svg"
+import linkedin from "../../assets/linkedin.svg"
+import twitter from "../../assets/twitter.svg"
+import  "./footer.css"
 const Footer = () => {
   return (
-    <div>
-        <footer>
-            <div>
+    <footer>
+        <div className='footer-container'>
+            <div >
                 <ul>
-                    <li></li>
-                    <li>Discover the ultimate in kids'luxury automobiles </li>
+                    <li><img src={logo} alt="" /></li>
+                    <li className='bottom'>Discover the ultimate in kids'luxury automobiles </li>
                     <li>
-                        <ul>
-                            <li>Fcebook</li>
-                            <li>Insta</li>
-                            <li>Linked</li>
-                            <li>Twiter</li>
+                        <ul className='social-icons'>
+                            <li><img src={facebook} alt="" /></li>
+                            <li><img src={instagram} alt="" /></li>
+                            <li><img src={linkedin} alt="" /></li>
+                            <li><img src={twitter} alt="" /></li>
                         </ul>
                     </li>
                 </ul>
             </div>
             <div>
                 <ul>
-                    <li>Useful Links</li>
-                    <li>Delivery</li>
-                    <li>Account</li>
-                    <li>Cart</li>
-                    <li>Products</li>
+                    <li className='top'>Useful Links</li>
+                    <li className='bottom'>Delivery</li>
+                    <li className='bottom'>Account</li>
+                    <li className='bottom'>Cart</li>
+                    <li className='bottom'>Products</li>
                 </ul>
             </div>
-            <div>
+            <div className='spacing'>
             <ul>
-                    <li>Category</li>
-                    <li>Compatible</li>
-                    <li>Jeep</li>
-                    <li>Motorbike</li>
-                    <li>Bicycle</li>
+                    <li className='top'>Category</li>
+                    <li className='bottom'>Compatible</li>
+                    <li className='bottom'>Jeep</li>
+                    <li className='bottom'>Motorbike</li>
+                    <li className='bottom'>Bicycle</li>
                 </ul>
             </div>
-            <div>
+            <div className='spacing'>
             <ul>
-                    <li>Contact info</li>
-                    <li>25marina street,Lagos island </li>
-                    <li>Email-Kiddiesauto@gmail.com</li>
-                    <li>Whatsapp- +234 456 753 8765</li>
+                    <li className='top'>Contact info</li>
+                    <li className='bottom'>25marina street,Lagos island </li>
+                    <li className='bottom'>Email-Kiddiesauto@gmail.com</li>
+                    <li className='bottom'>Whatsapp- +234 456 753 8765</li>
                 </ul>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
   )
 }
 

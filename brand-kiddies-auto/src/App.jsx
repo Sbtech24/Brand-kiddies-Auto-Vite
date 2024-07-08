@@ -10,12 +10,14 @@ const App = () => {
   return (
     <div className='container'>
       <Header/>
-      <div className='secondary-container'>
-        <Nav/>
+      <Nav/>
       <Hero image={car}/>
+      <div className='secondary-container'>
+        
+      
       <main>
         <section className='filter-section' >
-          <div>
+          <div className='button-left'>
             <Button name="Compactible"/>
             <Button name="Jeep"/>
             <Button name="Motorbike"/>
