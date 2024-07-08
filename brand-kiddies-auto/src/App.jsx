@@ -6,6 +6,7 @@ import Button from "./components/Button/Button"
 import "./App.css"
 import car from "./assets/Jeep.svg"
 import Nav from './components/Nav/Nav'
+import Card from './components/Card/Card'
 const App = () => {
   return (
     <div className='container'>
@@ -33,7 +34,7 @@ const App = () => {
           <div>
             <div>
               <img src="" alt="" />
-              <p>FlashSale</p>
+              {/* <p>FlashSale</p> */}
               <img src="" alt="" />
             </div>
             <div>
@@ -45,33 +46,23 @@ const App = () => {
           </div>
         </div>
         <section>
+          <div className="product">
+            <h4>Today's best deal for you </h4>
+            <section>
+              <Button name="Best Seller"/>
+              <Button name="special discount"/>
+              <Button name="official store"/>
+              <Button name="Coveted product"/>
+            </section>
+          </div>
           <div>
-            <p>Today's best deal for you </p>
-            <div>
-              <Button/>
-              <Button/>
-              <Button/>
-              <Button/>
-            </div>
+          <div>
+            <Card/>
           </div>
           <div></div>
-          <div></div>
-          <div></div>
+          </div>
+          
         </section>
-
-        <div>
-          <div>
-            <div>
-              <h3>Your recent search</h3>
-              <p>Kiddies Jump</p>
-            </div>
-            <div><p>arrows</p></div>
-          </div>
-          <div>
-            <p>card component</p>
-          </div>
-        </div>
-
 
       </main>
       <Footer/>

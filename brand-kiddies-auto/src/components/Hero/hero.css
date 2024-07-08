@@ -9,13 +9,17 @@
 
 .hero-button{
     background-color: #840032;
-    padding: 0.5em 1em;
+    padding:14px, 24px, 14px, 24px;
     font-size: 1em;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 1rem;
     margin-top: 0.95em;
+    margin-left:auto ;
+}
+.left{
+    text-align: left;
 }
 
 .left,.right{
@@ -24,6 +28,8 @@
 }
 .left h1{
     font-size: 3em;
+    color:#000000;
+    padding-bottom: 1rem;
 }
 .right{
     width: 50%;
@@ -32,6 +38,7 @@
     max-width: 100%;
 }
 .left p {
-    font-size: 1.2em;
-    margin: 1em 0;
+    font-size: 1em;
+    color: #696969;
+    margin-bottom: 1em;
 }

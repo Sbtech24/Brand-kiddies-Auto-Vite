@@ -44,7 +44,7 @@ const Footer = () => {
             <div className='spacing'>
             <ul>
                     <li className='top'>Contact info</li>
-                    <li className='bottom'>25marina street,Lagos island </li>
+                    <li className='bottom'>25 marina street,Lagos island </li>
                     <li className='bottom'>Email-Kiddiesauto@gmail.com</li>
                     <li className='bottom'>Whatsapp- +234 456 753 8765</li>
                 </ul>
