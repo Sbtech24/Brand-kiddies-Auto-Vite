@@ -1,0 +1,39 @@
+.summary-container{
+    max-width: 500px;
+}
+
+.summary-input{
+    width: 100%; 
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    padding: 10.19px 20px;
+   
+}
+
+.summary-item{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.summary-item>p{
+    color: black;
+}
+.sum{
+    padding: 10px;
+}
+
+.btn-2{
+    background-color:white;
+    padding:14px, 24px, 14px, 24px;
+    font-size: 1em;
+    color: black;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 0.95em;
+    margin-left:0;
+    border: 1px solid black;
+}
