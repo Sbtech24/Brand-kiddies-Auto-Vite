@@ -61,3 +61,10 @@ button{
 p{
     color: grey;
 }
+
+@media (max-width: 600px) {
+    .prod-container{
+      flex-direction: column;
+      justify-content: center;
+    }
+  }

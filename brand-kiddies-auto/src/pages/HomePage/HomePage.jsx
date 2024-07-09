@@ -45,7 +45,7 @@ const HomePage = () => {
           <section>
             <div className="product">
               <h4>Today's best deal for you </h4>
-              <section>
+              <section className='button-left'>
                 <Button name="Best Seller"/>
                 <Button name="special discount"/>
                 <Button name="official store"/>

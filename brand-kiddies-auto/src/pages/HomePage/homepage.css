@@ -20,7 +20,10 @@ body{
   margin: 0 auto;
 }
 
-
+.button-left{
+  display: flex;
+  flex-wrap: wrap;
+}
 .filter-section{
   display:flex;
   justify-content: space-between;

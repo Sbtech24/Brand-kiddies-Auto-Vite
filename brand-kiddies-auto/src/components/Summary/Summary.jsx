@@ -1,5 +1,6 @@
 import React from 'react'
 import "./summary.css"
+import { Link } from 'react-router-dom'
 const Summary = () => {
   return (
     <div className='summary-container'>
@@ -41,7 +42,7 @@ const Summary = () => {
 
         {/* bootom */}
         <div>
-            <button className='prod-button'>Checkout out your cart</button>
+           <Link to="/checkout"><button className='prod-button'>Checkout out your cart</button></Link>
             <button className='btn-2'>Paypal</button>
         </div>
     </div>

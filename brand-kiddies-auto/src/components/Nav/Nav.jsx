@@ -4,14 +4,17 @@ import arrow from "../../assets/Arrow.svg";
 import account from "../../assets/Account.svg";
 import "./nav.css";
 import cart from "../../assets/cart.svg";
+import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <nav>
       <div className="nav-container">
         <ul className="top-header-list">
+          <Link to="/">
           <li>
             <img src={logo} alt="" />
           </li>
+          </Link>
           <li>
             Categories <img src={arrow} className="white-arrow" alt="" />
           </li>
@@ -43,10 +46,12 @@ const Nav = () => {
           <li>
             <img src={account} className="white-arrow" alt="" /> Account
           </li>
+         <Link to="/cart">
           <li>
             <img src={cart} className="white-arrow" alt="" />
             Cart
           </li>
+          </Link> 
         </ul>
       </div>
     </nav>

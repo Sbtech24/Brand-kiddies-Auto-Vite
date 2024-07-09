@@ -1,8 +1,11 @@
 import React from 'react'
+import Summary from '../../components/Summary/Summary'
 
 const Checkout = () => {
   return (
-    <div>checkout</div>
+    <div>
+      <Summary/>
+    </div>
   )
 }
 
