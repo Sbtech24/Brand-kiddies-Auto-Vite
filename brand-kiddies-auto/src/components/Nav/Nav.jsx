@@ -30,7 +30,7 @@ const Nav = () => {
               className="input"
               id=""
             />{" "}
-            <button>
+            {/* <button>
               <svg
                 width="16"
                 height="16"
@@ -39,7 +39,7 @@ const Nav = () => {
               >
                 <path d="M21.53 20.47l-5.76-5.76A7.92 7.92 0 0 0 18 9a8 8 0 1 0-8 8 7.92 7.92 0 0 0 5.71-2.23l5.76 5.76a1 1 0 0 0 1.42-1.42zM10 16a6 6 0 1 1 6-6 6 6 0 0 1-6 6z" />
               </svg>
-            </button>
+            </button> */}
             </div>
    
           </li>

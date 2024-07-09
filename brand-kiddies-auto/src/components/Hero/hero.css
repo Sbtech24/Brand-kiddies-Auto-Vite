@@ -7,9 +7,9 @@
    background-color: #F6F7F8;
 }
 
-.hero-button{
+#hero-button{
     background-color: #840032;
-    padding:14px, 24px, 14px, 24px;
+    padding:14px 24px 14px 24px;
     font-size: 1em;
     color: white;
     border: none;

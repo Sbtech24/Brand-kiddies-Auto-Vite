@@ -18,7 +18,7 @@ nav{
     align-items: center;   
 }
 
-.search-container button {
+/* .search-container button {
     border: 1px solid #ccc;
     border-left:none;
     background-color: #fff;
@@ -26,20 +26,18 @@ nav{
     cursor: pointer;
     outline: none;
     margin:0;
-}
+} */
 
 .input{
     max-width: 100%;
     padding: 10.19px 20px;
     border: 1px solid #ccc;
-    border-radius: 20px 0 0 20px;
+    border-radius: 20px 20px;
     outline: none;
-    border-right: none;
+    
 }
 
-.search-container button svg {
-    fill: #000;
-}
+
 @media (max-width: 600px) {
     nav {
         display: none;
