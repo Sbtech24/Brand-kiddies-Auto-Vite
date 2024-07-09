@@ -40,3 +40,8 @@ nav{
 .search-container button svg {
     fill: #000;
 }
+@media (max-width: 600px) {
+    nav {
+        display: none;
+    }
+}

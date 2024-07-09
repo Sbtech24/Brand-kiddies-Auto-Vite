@@ -8,7 +8,7 @@ const Header = () => {
             <div className='top-header'>
                 <ul className='top-header-list'>
                     <li >+234903874698</li>
-                    <li>Get 10% off on selected items | Shop Now </li>
+                    <li id='li2'>Get 10% off on selected items | Shop Now </li>
                    <div className='header-right'>
                     <li>Eng <img src={arrow}className='white-arrow' alt="" /></li>
                     <li>Location <img src={arrow} className='white-arrow' alt="" /></li>

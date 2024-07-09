@@ -27,6 +27,16 @@ ul,li{
     gap: 2em;
     margin: 0 auto;
 }
+@media (max-width: 600px) {
+    #li2{
+       display: none;
+    }
+    header{
+        font-size: 0.8em;
+    }
+    
+}
+
 .header-right{
     display: flex;
     gap:2em;

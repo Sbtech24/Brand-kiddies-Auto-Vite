@@ -42,3 +42,20 @@
     color: #696969;
     margin-bottom: 1em;
 }
+
+@media (max-width: 600px) {
+    .hero-container {
+        flex-direction: column;
+        max-width: 600px;
+        width: 100%;
+    }
+    .left,.right{
+        max-width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .hero-button{
+        width: 100%;
+    }
+}

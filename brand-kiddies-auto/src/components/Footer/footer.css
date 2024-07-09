@@ -8,6 +8,7 @@ footer{
    
 }
 
+
 .social-icons{
     display: flex;
     align-items: center;
@@ -24,4 +25,11 @@ footer{
 
 ul li{
     padding: 7px;
+}
+
+@media (max-width: 600px) {
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
