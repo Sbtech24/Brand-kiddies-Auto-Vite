@@ -2,12 +2,13 @@ import React from 'react'
 import Summary from '../../components/Summary/Summary'
 import favorite from "../../assets/favorite.svg"
 import car from "/product/pobo jeep 1.svg";
+import "./cart.css"
 const Cart = () => {
   return (
-    <div>
-        <div>
+    <div  >
+        <div >
             <h1>cart</h1>
-            <div>
+            <div className='cart-container'>
                 <div>
                     <div>
                         <img src={favorite} alt="" />

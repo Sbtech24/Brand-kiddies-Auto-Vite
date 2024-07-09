@@ -42,7 +42,8 @@ const Summary = () => {
 
         {/* bootom */}
         <div>
-           <Link to="/checkout"><button className='prod-button'>Checkout out your cart</button></Link>
+           <Link to="/checkout">
+           <button className='prod-button'>Checkout out your cart</button></Link>
             <button className='btn-2'>Paypal</button>
         </div>
     </div>
