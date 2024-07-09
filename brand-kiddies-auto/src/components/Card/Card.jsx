@@ -4,17 +4,19 @@ import yellowCar from "../../assets/yellow_car.svg"
 import favorite from "../../assets/favorite.svg"
 import cart from "../../assets/cart2.svg"
 
-const Card = () => {
+
+const Card = ({name,car}) => {
+    
   return (
+   
     <div className='card-container'>
         <div className='card-top'>
-                
                 <img src={favorite} className='favorite-icon' alt="" />    
-                <img src={yellowCar}  alt="" />
+                <img src={car}  alt="" />
         </div>
         <div className='card-bottom'>
             <div className='card-bottom-left'>
-                <h4>Ferrari,battery</h4>
+                <h4>{name}</h4>
                 <div className="rating">★★★★☆<span>(54)</span></div>
                 <div className='card-price'>
                     <p className='price'>$101.00</p>

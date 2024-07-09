@@ -1,21 +1,21 @@
-{
-    "products": [
+
+    [
         {
             "id": 1,
             "name": "Ferrari, battery operated ride",
-            "image": "./assets/yellow_car.svg",
+            "image": "./yellow_car.svg",
             "rating": 4,
             "review_count": "54",
             "current_price": "$101.00",
             "original_price": "$101.00",
             "favorite": false,
-            "cart_icon": "./assets/cart2.svg",
-            "favorite_icon": "./assets/favorite.svg"
+            "cart_icon": "./cart2.svg",
+            "favorite_icon": "./favorite.svg"
         },
         {
             "id": 2,
             "name": "RollsRoyce,battery operated ride",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "./product/Rolls Royce.svg",
             "rating": 4,
             "review_count": "54",
             "current_price": "$101.00",
@@ -27,7 +27,7 @@
         {
             "id": 3,
             "name": "Kiddies power bike, battery operated ride",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "./product/Bike.svg",
             "rating": 5,
             "review_count": "54",
             "current_price": "$101.00",
@@ -39,7 +39,7 @@
         {
             "id": 4,
             "name": "Mercedes Benz 12v, battery operated ride",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "./product/blueBenz.svg",
             "rating": 5,
             "review_count": "54",
             "current_price": "$101.00",
@@ -51,7 +51,7 @@
         {
             "id": 5,
             "name": "Rambo bicycle,for kids",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "./product/bicycle.svg",
             "rating": 5,
             "review_count": "54",
             "current_price": "$101.00",
@@ -63,7 +63,7 @@
         {
             "id": 6,
             "name": "Benz AMG G63 electric ride",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "./product/Benz.svg",
             "rating": 5,
             "review_count": "54",
             "current_price": "$101.00",
@@ -75,7 +75,7 @@
         {
             "id": 7,
             "name": "Lamborghini Urus, battery operated ride",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "./product/Lambogini.svg",
             "rating": 5,
             "review_count": "54",
             "current_price": "$101.00",
@@ -87,7 +87,7 @@
         {
             "id": 8,
             "name": "24V Mercedes Benz Unimog, battery operated ride",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "./product/Benz3.svg",
             "rating": 5,
             "review_count": "54",
             "current_price": "$101.00",
@@ -99,7 +99,7 @@
         {
             "id": 9,
             "name": "Ride on car Toy Licensed Benz Car for Kids ",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "./product/PinkBenx.svg",
             "rating": 5,
             "review_count": "54",
             "current_price": "$101.00",
@@ -111,7 +111,7 @@
         {
             "id": 10,
             "name": "12v-Kids-electric-bugatti-chiron-battery-power",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "./product/Benz7.svg",
             "rating": 5,
             "review_count": "54",
             "current_price": "$101.00",
@@ -123,7 +123,7 @@
         {
             "id": 11,
             "name": "BMW M6 Sport GT3 Electric car",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "./product/Bmw.svg",
             "rating": 5,
             "review_count": "54",
             "current_price": "$101.00",
@@ -135,7 +135,7 @@
         {
             "id": 12,
             "name": "Lamborghini,Urus Kids electric car",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "./product/LamboBlue.svg",
             "rating": 5,
             "review_count": "54",
             "current_price": "$101.00",
@@ -147,7 +147,7 @@
         {
             "id": 13,
             "name": "Mercedes Benz 12V,battery operated ride",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "./product/Benz8.svg",
             "rating": 5,
             "review_count": "54",
             "current_price": "$101.00",
@@ -159,7 +159,7 @@
         {
             "id": 14,
             "name": "Mercedes Benz 12V,battery operated ride",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "./product/Benz10.svg",
             "rating": 5,
            "review_count": "54",
             "current_price": "$101.00",
@@ -171,7 +171,7 @@
         {
             "id": 15,
             "name": "Four-wheel Drive Children Electric Car ",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "./product/benz2.svg",
             "rating": 5,
           "review_count": "54",
             "current_price": "$101.00",
@@ -183,7 +183,7 @@
         {
             "id": 16,
             "name": "BMW i8 (jE10001) Blue with Glossy paint ",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "./product/Bmw.svg",
             "rating": 5,
             "review_count": "54",
             "current_price": "$101.00",
@@ -195,7 +195,7 @@
         {
             "id": 17,
             "name": "12v Kids Battery Powered Remote Control",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "./product/Benz8.svg",
             "rating": 5,
             "review_count": "54",
             "current_price": "$101.00",
@@ -207,7 +207,7 @@
         {
             "id": 18,
             "name": "12v ride on car Kids w/ mp3 player",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "./product/benz2.svg",
             "rating": 5,
             "review_count": "54",
             "current_price": "$101.00",
@@ -219,7 +219,7 @@
         {
             "id": 19,
             "name": "Lamborghini, battery operated ride",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "./product/LamboBlue.svg",
             "rating": 5,
             "review_count": 32,
             "current_price": 150.00,
@@ -232,7 +232,7 @@
         {
             "id": 20,
             "name": "Lamborghini, battery operated ride",
-            "image": "path/to/lamborghini-image.jpg",
+            "image": "../product/Lambogini.svg",
             "rating": 5,
             "review_count": 32,
             "current_price": 150.00,
@@ -243,4 +243,4 @@
         }
 
     ]
-}
+
