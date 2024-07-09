@@ -5,7 +5,12 @@
     padding: 20px;
     
 }
-
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    margin: 10px;
+}
 
 @media (max-width: 1200px) {
     .product-container {
@@ -24,3 +29,4 @@
         grid-template-columns: 1fr;
     }
 }
+
