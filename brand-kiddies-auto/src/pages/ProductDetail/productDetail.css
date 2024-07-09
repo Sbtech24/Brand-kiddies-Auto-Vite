@@ -17,6 +17,12 @@
     gap: 10px;
     max-width: 200px;
 }
+.prod-right{
+    margin: 10px;
+}
+.prod-car{
+    margin: 1em;
+}
 .prod-price{
     color: black;
     font-size: 1.2em;

@@ -10,6 +10,7 @@ import right3 from "/product/right3.svg";
 import right4 from "/product/right4.svg";
 import "./productDetail.css"
 import CountButton from "../../components/CountButton/CountButton";
+import { Link } from "react-router-dom";
 
 const ProductDetail = () => {
   return (
@@ -39,10 +40,12 @@ const ProductDetail = () => {
           </div>
           <div>
             <h4>Colour: Mercedes Benz Cls-Black</h4>
-            <img src={right1} alt="" />
-            <img src={right2} alt="" />
-            <img src={right3} alt="" />
-            <img src={right4} alt="" />
+            <div className="prod-car">
+                <img src={right1} alt="" />
+                <img src={right2} alt="" />
+                <img src={right3} alt="" />
+                <img src={right4} alt="" />
+            </div>
           </div>
           <div>
            <CountButton/>
@@ -52,8 +55,9 @@ const ProductDetail = () => {
           </div>
           
           <div>
-            <button className="prod-button">Buy this Item</button>
-            <button className="prod-button alt-button">Add to Cart</button>
+           
+          <Link to="/checkout" > <button className="prod-button">Buy this Item</button></Link>
+            <Link to="/cart"><button className="prod-button alt-button">Add to Cart</button></Link>
           </div>
 
           <div className="pro-p-container">
