@@ -9,12 +9,12 @@ const Cart = () => {
         <div >
             <h1>cart</h1>
             <div className='cart-container'>
-                <div>
+                <div className='cart-left'>
                     <div>
-                        <img src={favorite} alt="" />
+                        {/* <img src={favorite} alt="" /> */}
                         <img src={car} alt="" />
                     </div>
-                    <div>
+                    <div >
                         <div>
                             <h3>Merces Benz Cls </h3>
                             <p>$270.00</p>

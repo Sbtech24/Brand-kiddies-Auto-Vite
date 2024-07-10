@@ -24,6 +24,18 @@
     padding: 10px;
 }
 
+.prod-button{
+    background-color: #840032;
+    padding:14px 24px 14px 24px;
+    font-size: 1em;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin-top: 0.95em;
+    margin-left:0;
+}
+
 .btn-2{
     background-color:white;
     padding:14px 24px 14px 24px;
@@ -36,4 +48,9 @@
     margin-top: 0.95em;
     margin-left:0;
     border: 1px solid black;
+}
+@media(max-width:600px){
+    .summary-container{
+        max-width: 50%;
+    }
 }

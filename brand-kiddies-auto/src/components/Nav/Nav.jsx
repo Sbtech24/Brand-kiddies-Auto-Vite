@@ -12,7 +12,7 @@ const Nav = () => {
         <ul className="top-header-list">
           <Link to="/">
           <li>
-            <img src={logo} alt="" />
+            <img className="logo" src={logo} alt="" />
           </li>
           </Link>
           <li>

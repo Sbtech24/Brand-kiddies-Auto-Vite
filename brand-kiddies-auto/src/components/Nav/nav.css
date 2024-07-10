@@ -2,8 +2,8 @@ nav{
     background-color: #F6F7F8;
     color: black;
     padding: 30px;
-    max-width: 1440px;
-   
+    max-width:1440px;
+    cursor:pointer;  
 }
 
 .nav-container{
@@ -17,6 +17,10 @@ nav{
     justify-content: center;
     align-items: center;   
 }
+.logo{
+    max-width: 100%;
+}
+
 
 /* .search-container button {
     border: 1px solid #ccc;
@@ -38,7 +42,7 @@ nav{
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 1390px) {
     nav {
         display: none;
     }

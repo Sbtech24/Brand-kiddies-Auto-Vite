@@ -4,6 +4,14 @@
     max-width: 1000px;
     margin: 0 auto;
     padding: 40px;
+    align-items: center;
+}
+
+.cart-left{
+    display: flex;
+    max-width: 720px;
+    justify-content: center;
+    align-items: \;
 }
 
 @media(max-width:600px){
