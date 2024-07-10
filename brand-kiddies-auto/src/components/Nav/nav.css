@@ -42,7 +42,7 @@ nav{
 }
 
 
-@media (max-width: 1390px) {
+@media (max-width: 800px) {
     nav {
         display: none;
     }
