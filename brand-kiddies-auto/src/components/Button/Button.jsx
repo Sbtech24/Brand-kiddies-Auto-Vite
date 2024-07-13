@@ -2,7 +2,7 @@ import React from 'react'
 import "./button.css"
 const Button = ({name}) => {
   return (
-    <button className='custom-button'>
+    <button className='custom1-button'>
         {name}
     </button>
   )

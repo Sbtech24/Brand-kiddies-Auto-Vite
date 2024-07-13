@@ -1,5 +1,8 @@
 .summary-container{
     max-width: 500px;
+    background-color: white;
+    border-radius: 0.7rem;
+    
 }
 
 .summary-input{
@@ -14,6 +17,7 @@
 .summary-item{
     display: flex;
     justify-content: space-between;
+    padding: 7px;
     
 }
 
@@ -49,6 +53,15 @@
     margin-left:0;
     border: 1px solid black;
 }
+.value{
+    font-weight: 500;
+    font-size: 16px;
+    margin-right:0;
+}
+.price{
+    font-weight: 600;
+}
+
 @media(max-width:600px){
     .summary-container{
         max-width: 50%;
