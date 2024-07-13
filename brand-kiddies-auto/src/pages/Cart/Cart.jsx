@@ -4,6 +4,7 @@ import favorite from "../../assets/favorite.svg";
 import car from "/product/pobo jeep 1.svg";
 import "./cart.css";
 import { Link } from "react-router-dom";
+import paypal from "/paypal.svg"
 const Cart = () => {
   return (
     <div>
@@ -36,12 +37,13 @@ const Cart = () => {
               </div>
             </div>
           </div>
-          <Summary />
+          
           <div>
+          <Summary />
             <Link to="/checkout">
               <button className="prod-button">Checkout out your cart</button>
             </Link>
-            <button className="btn-2">Paypal</button>
+            <button className="btn-2"><img src={paypal} alt="" /></button>
           </div>
         </div>
       </div>
