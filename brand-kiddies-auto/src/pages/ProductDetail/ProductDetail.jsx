@@ -47,10 +47,10 @@ const ProductDetail = () => {
                 <img src={right4} alt="" />
             </div>
           </div>
-          <div>
+          <div className="prod-container">
            <CountButton/>
             <div>
-            <p>only 10 items leftDon't miss it</p>
+            <p className="word">only <span className="orange">10 items</span> left Don't miss it</p>
             </div>
           </div>
           
@@ -82,10 +82,10 @@ const ProductDetail = () => {
       {/* bootom section */}
       <div>
         <div>
-          <div>
-            <button>Description</button>
-            <button>Review</button>
-            <button>Best Seller</button>
+          <div className="product-button-container">
+            <button className="product-button">Description</button>
+            <button  className="product-button">Review</button>
+            <button  className="product-button">Best Seller</button>
           </div>
           <div>
             <h3>Product Description</h3>

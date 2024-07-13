@@ -6,13 +6,22 @@
     
 }
 
-.count-button{
+
+.plus-minus-button {
+    display: inline-block;
     background-color: white;
-    border: 1px solid #ccc;
-    padding: 15px;
-   border-radius: 50%;
-   
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 0.8rem;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
     cursor: pointer;
-    transition: all 0.3s ease;
+}
+
+
+.plus-minus-button .plus,
+.plus-minus-button .minus {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
 }

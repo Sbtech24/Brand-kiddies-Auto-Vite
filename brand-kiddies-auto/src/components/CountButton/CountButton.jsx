@@ -11,12 +11,11 @@ const countButton = () => {
     }
     
   return (
-
-    <div className='count-button-container'>
-        <button className='count-button' onClick={decrement}>-</button>
-        <p>{count}</p>
-        <button className='count-button' onClick={increment}>+</button>
-    </div>
+  <div className="plus-minus-button">
+  <span className="minus" onClick={decrement}>-</span>
+  {count}
+  <span className="plus" onClick={increment}>+</span>
+  </div>
   )
 }
 
