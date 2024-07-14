@@ -43,7 +43,7 @@ const Cart = () => {
             <Link to="/checkout">
               <button className="prod-button">Checkout out your cart</button>
             </Link>
-            <button className="btn-2"><img src={paypal} alt="" /></button>
+            <button className="btn-2"><img src={paypal} classname="paypal" width={80} alt="" /></button>
           </div>
         </div>
       </div>
