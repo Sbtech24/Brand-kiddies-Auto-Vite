@@ -12,7 +12,7 @@ const Card = ({name,car}) => {
     <div className='card-container'>
         <div className='card-top'>
                 <img src={favorite} className='favorite-icon' alt="" />    
-                <img src={car}  alt="" />
+                <img src={car} alt="" />
         </div>
         <div className='card-bottom'>
             <div className='card-bottom-left'>

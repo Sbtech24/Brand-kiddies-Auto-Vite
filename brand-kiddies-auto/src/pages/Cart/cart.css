@@ -5,13 +5,30 @@
     margin: 0 auto;
     padding: 40px;
     align-items: center;
+   
+}
+.blk{
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+.light{
+    color: black;
+    font-weight: 400;
 }
 
 .cart-left{
     display: flex;
     max-width: 720px;
     justify-content: center;
-    align-items: \;
+    align-items: center;
+    background-color: #F6F7F8;
+    height: 100%;
+}
+
+.summary-wrapper{
+    background-color: #F6F7F8;
+    
 }
 
 @media(max-width:600px){

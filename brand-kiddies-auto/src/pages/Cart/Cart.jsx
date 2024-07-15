@@ -4,7 +4,11 @@ import favorite from "../../assets/favorite.svg";
 import car from "/product/pobo jeep 1.svg";
 import "./cart.css";
 import { Link } from "react-router-dom";
-import paypal from "/paypal.svg"
+import paypal from "/paypal.svg";
+import CountButton from "../../components/CountButton/CountButton";
+import del from "/delete.svg"
+
+
 const Cart = () => {
   return (
     <div>
@@ -17,28 +21,29 @@ const Cart = () => {
               <img src={car} alt="" />
             </div>
             <div>
-              <div>
-                <h3>Merces Benz Cls </h3>
-                <p>$270.00</p>
+              <div className="flex">
+                <h3 className="light">Merces Benz Cls </h3>
+                <p className="blk">$270.00</p>
+              </div>
+              <div className="padding">
+                <p className="padding">battery operated ride </p>
+                <p className="padding"> Age 1-3 years</p>
+                <p className="padding">Colors black</p>
               </div>
               <div>
-                <p>battery operated ride </p>
-                <p> Age 1-3 years</p>
-                <p>Colors black</p>
-              </div>
-              <div>
-                <div>
+                {/* <div>
                   <img src="" alt="" />
                   <img src="" alt="" />
-                </div>
-                <div>
-                  <button>button</button>
+                </div> */}
+                <div className="flex padding">
+                  <button><img src={del} alt="" /></button>
+                  <div><CountButton/></div>
                 </div>
               </div>
             </div>
           </div>
           
-          <div>
+          <div className="summary-wrapper">
           <Summary />
             <Link to="/checkout">
               <button className="prod-button">Checkout out your cart</button>
